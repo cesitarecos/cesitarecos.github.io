@@ -11,6 +11,7 @@ body {
     transition: .3s ease all;
     &.black {
         background: #000;
+        color: #fff;
         transition: .3s ease all;
     }
 }
@@ -81,13 +82,4 @@ body {
     list-style: none;
     font-size: 1.1rem;
     cursor: pointer;
-}
-
-.letter {
-    color: #000;
-    background-color: #f1f1f1;
-    body.black & {
-        background-color: #000;
-        color: #f1f1f1;
-    }
 }
